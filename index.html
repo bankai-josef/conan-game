@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conan Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Welcome to Conan Quiz!</h1>
+        <h3>by Med Yessine Khmiri</h3>
+        <div id="question-container" class="question-container">
+            <img id="question-image" class="question-image" src="" alt="Question image">
+            <p id="question"></p>
+            <div id="options" class="options"></div>
+        </div>
+        <button id="next-button" onclick="nextQuestion()">Start Quiz</button>
+
+        <div id="result-container" class="result-container hidden">
+            <h2>RESULT</h2>
+            <p id="score-text"></p>
+            <p>Answers: <span id="answers"></span></p>
+            <p>Your Guesses: <span id="guesses"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

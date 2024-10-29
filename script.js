@@ -8,7 +8,7 @@ const questions = [
             "D. Black Organization member Asaca/Rum"
         ],
         answer: "B",
-        image: "https://static.wikia.nocookie.net/detectiveconan96/images/0/05/Ran_and_Unknown_Child.jpg/revision/latest?cb=20160104090030" // Chemin de l'image pour cette question
+        image: "Ran_and_Unknown_Child.jpg" // Chemin de l'image pour cette question
     },
     {
         question: "Who is Amuro Tooru's subordinate in the PSB?",
@@ -41,7 +41,7 @@ const questions = [
             "C. Fujiko Mine (Lupin III)"
         ],
         answer: "C",
-        image: "https://static.wikia.nocookie.net/caseclosed/images/7/75/Infobox_-_Yukiko_Kudo.jpg/revision/latest?cb=20180220092407"
+        image: "Infobox_-_Yukiko_Kudo.jpg"
     },
     {
         question: "What does Gin like to call Detectives?",
@@ -52,7 +52,7 @@ const questions = [
             "D. Rats"
         ],
         answer: "B",
-        image: "https://static.wikia.nocookie.net/caseclosed/images/4/43/Infobox_-_Gin.png/revision/latest/scale-to-width-down/1200?cb=20201224120730"
+        image: "gin.jpg"
     }
 ];
 
